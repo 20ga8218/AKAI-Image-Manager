@@ -1,0 +1,134 @@
+AKAI IMAGE MANAGER — THIRD-PARTY TOOLS AND SOURCES
+===================================================
+
+No third-party executable or library is bundled inside AKAI Image Manager.
+The application uses Apple system frameworks and launches separately installed
+tools only when their features are requested. One sanitized, audio-free Ableton
+Live user-preset template is included as application data for Drum Rack export;
+see section 4.
+
+
+1. AKAI Util
+------------
+
+Purpose:
+  Required command-line engine for reading and writing S950 disk images,
+  S9 samples and P9 programs.
+
+Tested version:
+  AKAI Util 4.6.7 Darwin, released 21 October 2022.
+
+Copyright shown by the upstream distribution:
+  Copyright (c) 2008-2022 Klaus Michael Indlekofer.
+  All rights reserved.
+
+Official project and downloads:
+  https://sourceforge.net/projects/akaiutil/
+  https://sourceforge.net/projects/akaiutil/files/
+
+Exact tested Darwin binary:
+  https://sourceforge.net/projects/akaiutil/files/akaiutil-4.6.7Darwin.zip/download
+
+Exact corresponding source archive:
+  https://sourceforge.net/projects/akaiutil/files/akaiutil-4.6.7.tar.gz/download
+
+Community GitHub fork:
+  https://github.com/Midi-In/akaiutil
+
+Terms:
+  AKAI Util is not included in this ZIP. Review README.txt and all licensing,
+  disclaimer and redistribution terms in the exact upstream source archive.
+  The upstream distribution describes special restrictions and also contains
+  notices for incorporated BSD-derived code. Do not redistribute AKAI Util
+  without complying with its upstream terms.
+
+Architecture:
+  The official 4.6.7 Darwin executable tested with this app is x86_64.
+  It runs directly on Intel Macs and through Apple Rosetta on Apple-silicon Macs.
+
+
+2. USBclean
+-----------
+
+Purpose:
+  Optional application used only by AKAI Image Manager's Clean Eject action.
+
+Developer:
+  SweetP Productions, Inc.
+
+Official product page:
+  https://usbclean.sweetpproductions.com/
+
+Official developer site:
+  https://sweetpproductions.com/
+
+Mac App Store:
+  https://apps.apple.com/gb/app/usbclean/id907406031?mt=12
+
+Support:
+  https://support.sweetpproductions.com/category/20/usbclean
+
+Terms:
+  USBclean is proprietary commercial software. Its source code is not published
+  as part of AKAI Image Manager, and USBclean is not included in this ZIP.
+  Obtain and license it directly from SweetP Productions or the Mac App Store.
+
+
+3. User-selected audio editor
+-----------------------------
+
+Purpose:
+  Optional application used only by the direct S950 sample-editing
+  workflow. It must be able to open and save PCM WAV files.
+
+Terms:
+  No audio editor is included or required for the rest of AKAI Image Manager.
+  Users choose and license their preferred editor independently. AKAI Image
+  Manager does not link to, redistribute, or depend on a particular editor.
+
+
+4. Ableton Live user-preset template
+------------------------------------
+
+Purpose:
+  Used as the structural basis for S950-to-Ableton Drum Rack export. The app
+  creates one Ableton Sampler device per exported S950 keygroup.
+
+Provenance:
+  Created by the project author in Ableton Live 12.4.3, then sanitized for this
+  application. Personal paths, usernames, audio samples, browser identifiers
+  and source-preset names were removed. The bundled ADG contains device state
+  only and is not the Ableton application or a sound library.
+
+Requirement and terms:
+  Ableton Live is proprietary software and is not included. Users must obtain
+  and license it from Ableton to open the generated ADG files. Ableton is not
+  needed for AKAI Image Manager's other features.
+
+Official product site:
+  https://www.ableton.com/live/
+
+
+5. Apple system components
+--------------------------
+
+AKAI Image Manager uses SwiftUI, AppKit, AVFoundation, UniformTypeIdentifiers
+and CryptoKit supplied with macOS. Rosetta is an Apple system component needed
+only to run the Intel AKAI Util binary on Apple-silicon Macs.
+
+Rosetta information:
+  https://support.apple.com/102527
+
+Gatekeeper and unnotarized-app guidance:
+  https://support.apple.com/102445
+
+
+Trademarks
+----------
+
+AKAI and related product names are trademarks of their respective owners.
+Ableton and Live are trademarks of Ableton AG.
+USBclean is a product of SweetP Productions, Inc.
+AKAI Image Manager is independent and is not affiliated with or endorsed by
+Akai Professional, Ableton AG, Klaus Michael Indlekofer, Midi-In, or SweetP
+Productions.
