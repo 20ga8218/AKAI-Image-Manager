@@ -1,0 +1,11 @@
+
+/disk0/A/VOLUME 001
+fnr  fname               size/B  startblk  uncompr
+--------------------------------------------------
+  1  KICK.S               16384   0x0004     -
+ 12  LONG SAMPLE.S        32768   0x0014   65536
+ 64  PROGRAM ONE.P         2048   0x0024
+--------------------------------------------------
+total:   3 file(s) (max.  64),     51200 bytes
+
+/disk0/A/VOLUME 001 > 

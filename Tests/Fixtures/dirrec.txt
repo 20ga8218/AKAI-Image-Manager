@@ -1,0 +1,7 @@
+
+/disk0/A/VOLUME 001
+  1  KICK.S               16384   0x0004     -
+
+/disk0/A/DRUM SET
+
+/disk0/A/VOLUME 001 > 

@@ -1,0 +1,7 @@
+
+/disk0/A/VOLUME 001
+volume: VOLUME 001
+type: S900
+files: 3 (max. 64)
+
+/disk0/A/VOLUME 001 > 
